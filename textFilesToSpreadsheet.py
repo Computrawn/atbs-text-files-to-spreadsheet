@@ -29,9 +29,9 @@ def find_files():
 def pull_contents(file_list):
     """Convert contents of each line of each text file into a list of lists."""
     document_contents = []
-    for file in file_list:
-        with open(file, "rb") as f:
-            lines = f.readlines()
+    for item in file_list:
+        with open(item, "rb") as f_contents:
+            lines = f_contents.readlines()
             document_contents.append(lines)
     return document_contents
 
