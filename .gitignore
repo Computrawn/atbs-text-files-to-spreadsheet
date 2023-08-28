@@ -3,6 +3,6 @@
 *.pyc
 .idea
 *.xlsx
-*.txt
 text_files
 venv
+logging.txt
