@@ -1,10 +1,9 @@
-#! python3
-# textFilesToSpreadsheet.py — An exercise in manipulating Excel files.
-# For more information, see project_details.txt.
+#!/usr/bin/env python3
+# text_files_to_spreadsheet.py — An exercise in manipulating Excel files.
+# For more information, see README.md
 
 from pathlib import Path
 import logging
-
 import openpyxl
 from openpyxl.utils import get_column_letter
 
